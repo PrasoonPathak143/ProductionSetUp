@@ -16,4 +16,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/", indexRouter);
 app.use("/user", userRouter);
 
-app.listen(config.get("PORT"));
+// app.listen(config.get("PORT"));
+app.listen(3001);
